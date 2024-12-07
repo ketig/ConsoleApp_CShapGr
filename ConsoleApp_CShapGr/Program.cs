@@ -1,28 +1,14 @@
-﻿// მოცემულია string, რომელშიც გვაქვს რიცხვები
-// თითოეული რიცხვისთვის უნდა ვიპოვით მისი კვადრატი
-// და უკუთანმიმდევრობით დავბეჭდოთ
+﻿//runtime exception
 
-string input = "34, 6, 12, 5, 8, 15, 4"; // Console.ReadLine();
+string[] names = new string[4];
 
-string[] numbers = input.Split(", "); // "34" "6" "12" "5" "8"
-double[] doubles = new double[numbers.Length];
 
-for (int i = 0; i < doubles.Length; i++)
+names[0] = "giorgi";
+names[1] = "rati";
+names[2] = "nika1";
+names[3] = "nika2";
+
+for (int i = 0; i < names.Length; i++)
 {
-    doubles[i] = Convert.ToDouble(numbers[i]);
+    Console.WriteLine($"is this you {names[i]}");
 }
-
-// დაბეჭდეთ
-for (int i = doubles.Length - 1; i >= 0; i--)
-{
-    Console.WriteLine(Math.Pow(doubles[i], 2));
-}
-
-//for (int i = 0; i < doubles.Length; i++)
-//{
-//    Console.WriteLine(i);
-//}
-//for (int i = doubles.Length - 1; i >= 0; i--)
-//{
-//    Console.WriteLine(i);
-//}
