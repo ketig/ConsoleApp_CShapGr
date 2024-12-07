@@ -18,7 +18,6 @@ for (int i = doubles.Length - 1; i >= 0; i--)
     Console.WriteLine(Math.Pow(doubles[i], 2));
 }
 
-
 //for (int i = 0; i < doubles.Length; i++)
 //{
 //    Console.WriteLine(i);
