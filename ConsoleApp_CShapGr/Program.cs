@@ -1,29 +1,14 @@
-﻿//runtime exception
-
-string[] names = new string[4];
-
-try
-{
-    names[0] = "giorgi";
-    names[1] = "rati";
-    names[2] = "nika1";
-    names[3] = "nika2";
-} // block
-catch (IndexOutOfRangeException ex)
-{
-    Console.WriteLine("Index out of range!");
-}
-catch (Exception ex)
-{
-    Console.WriteLine("Oops, something went wrong!");
-}
-finally
-{
-    Console.WriteLine("Values inserted in array!");
-}
+﻿List<string> names = new List<string>();
 
 
-for (int i = 0; i < names.Length; i++)
-{
-    Console.WriteLine($"is this you {names[i]}");
-}
+Console.WriteLine();
+
+
+
+
+//Dictionary<string, int> gameObjects = new Dictionary<string, int>();
+//gameObjects.Add("Coins", 20);
+//gameObjects.Add("Sword", 2);
+//gameObjects.Add("Guard", 7);
+//gameObjects.Add("Gun", 2);
+//gameObjects.Add("Gun", 1); key-ების გამეორება იწვევს Runtime Exception
