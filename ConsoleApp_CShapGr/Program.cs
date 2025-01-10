@@ -1,11 +1,8 @@
-﻿List<string> names = new List<string>();
+﻿using ConsoleApp_CShapGr;
 
+Cellphone cellphone = new Cellphone();
 
-Console.WriteLine();
-
-
-
-
+//List<string> names = new List<string>();
 //Dictionary<string, int> gameObjects = new Dictionary<string, int>();
 //gameObjects.Add("Coins", 20);
 //gameObjects.Add("Sword", 2);
