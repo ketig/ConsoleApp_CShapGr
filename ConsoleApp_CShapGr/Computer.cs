@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_CShapGr
 {
+    enum Color { Black, Green, Red, Blue }
     class Computer
     {
-        private string _color;
+        private Color _color;
         private string _gpu;
         private string _cpu;
         private string _ram;
@@ -17,7 +18,7 @@ namespace ConsoleApp_CShapGr
         private string _model;
         private uint _quantity;
 
-        public string Color { get => _color; set => _color = value; }
+        public Color Color { get => _color; set => _color = value; }
         public string GPU { get => _gpu; set => _gpu = value; }
         public string CPU { get => _cpu; set => _cpu = value; }
         public string RAM { get => _ram; set => _ram = value; }
