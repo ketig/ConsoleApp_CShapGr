@@ -15,5 +15,18 @@ namespace ConsoleApp_CShapGr
         public string Brand { get => _brand; set => _brand = value; }
         public double RAM { get => _RAM; set => _RAM = value; }
         public double Storage { get => _storage; set => _storage = value; }
+
+        // Constructor
+        public Cellphone() // უპარამეტრო კონსტრუქტორი
+        {
+
+        }
+
+        public Cellphone(double ram, string brand, double storage)
+        {
+            RAM = ram;
+            Brand = brand;
+            Storage = storage;
+        }
     }
 }
