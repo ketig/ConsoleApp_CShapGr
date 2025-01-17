@@ -25,5 +25,21 @@ namespace ConsoleApp_CShapGr
         public string Brand { get => _brand; set => _brand = value; }
         public string Model { get => _model; set => _model = value; }
         public uint Quantity { get => _quantity; set => _quantity = value; }
+
+        public Computer()
+        {
+
+        }
+
+        public Computer(Color Color, string GPU, string CPU, string RAM, string Brand, string Model, uint Quantity)
+        {
+            this.Color = Color;
+            this.GPU = GPU;
+            this.CPU = CPU;
+            this.RAM = RAM;
+            this.Brand = Brand;
+            this.Model = Model;
+            this.Quantity = Quantity;
+        }
     }
 }

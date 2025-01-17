@@ -2,6 +2,8 @@
 
 Cellphone cellphone = new Cellphone();
 
+Computer computer = new Computer();
+
 //List<string> names = new List<string>();
 //Dictionary<string, int> gameObjects = new Dictionary<string, int>();
 //gameObjects.Add("Coins", 20);
