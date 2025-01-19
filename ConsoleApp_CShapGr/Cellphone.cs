@@ -22,11 +22,11 @@ namespace ConsoleApp_CShapGr
 
         }
 
-        public Cellphone(double ram, string brand, double storage)
+        public Cellphone(double Ram, string Brand, double Storage)
         {
-            RAM = ram;
-            Brand = brand;
-            Storage = storage;
+            this.RAM = Ram;
+            this.Brand = Brand;
+            this Storage = Storage;
         }
     }
 }
