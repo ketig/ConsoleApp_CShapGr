@@ -6,27 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_CShapGr
 {
-    class Cellphone
-    {
-        private string _brand;
-        private double _RAM;
-        private double _storage;
+	class Cellphone : Tech
+	{
+		private double _storage;
+		public double Storage { get => _storage; set => _storage = value; }
 
-        public string Brand { get => _brand; set => _brand = value; }
-        public double RAM { get => _RAM; set => _RAM = value; }
-        public double Storage { get => _storage; set => _storage = value; }
+		// Constructor
+		public Cellphone() // უპარამეტრო კონსტრუქტორი
+		{
 
-        // Constructor
-        public Cellphone() // უპარამეტრო კონსტრუქტორი
-        {
+		}
 
-        }
-
-        public Cellphone(double ram, string brand, double storage)
-        {
-            RAM = ram;
-            Brand = brand;
-            Storage = storage;
-        }
-    }
+		public Cellphone(double ram, string brand, double storage)
+		{
+			RAM = ram;
+			Brand = brand;
+			Storage = storage;
+		}
+	}
 }

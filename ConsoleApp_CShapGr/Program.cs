@@ -13,7 +13,7 @@ Cellphone cellphoneLasha = new Cellphone(8, "Samsung", 256);
 Console.WriteLine("Ratis phone: ");
 Console.WriteLine(cellphoneRati.Brand);
 Console.WriteLine(cellphoneRati.Storage);
-Console.WriteLine(cellphoneRati.ra);
+Console.WriteLine(cellphoneRati.RAM);
 
 // Mouse - brand, dpi, bluetooth, wireless, color
 Mouse mouse = new Mouse("hp", 3600, true, true, "white");
