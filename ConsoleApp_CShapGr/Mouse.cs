@@ -8,11 +8,11 @@ namespace ConsoleApp_CShapGr
 {
     class Mouse
     {
-        public string _brand;
-        public int _dpi;
-        public bool _bluetooth;
-        public bool _wireless;
-        public string _color;
+        public string Brand;
+        public int Dpi;
+        public bool Bluetooth;
+        public bool Wireless;
+        public string Color;
 
         public Mouse()
         {
@@ -21,11 +21,11 @@ namespace ConsoleApp_CShapGr
 
         public Mouse(string brand, int dpi, bool bluetooth, bool wireless, string color)
         {
-            _brand = brand;
-            _dpi = dpi;
-            _bluetooth = bluetooth;
-            _wireless = wireless;
-            _color = color;
+            Brand = brand;
+            Dpi = dpi;
+            Bluetooth = bluetooth;
+            Wireless = wireless;
+            Color = color;
         }
     }
 }
